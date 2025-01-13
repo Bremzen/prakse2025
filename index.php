@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projekta mājaslapa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css?v=2">
   </head>
   <body>
@@ -56,8 +57,62 @@
 
     <!-- End of Hero Section-->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-X7nIlYTDRQLGhoUVDghPaBh1tpwEohqNl8WIlcCqNIIksT1D9Cmgkf2K2v9KT6KP" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-M+5Y80tT8J6E4DBfQ9soVZcKrwnSTb3XhxWlRFuE7lB/3TgkzX6H+WpsPzivm9M9" crossorigin="anonymous"></script>
+    <!-- Product Section -->
+
+    <h1>Produkti</h1>
+    <div class="container-fluid row">
+      <div class="card col" style="width: 18rem;">
+        <img src="https:/picsum.photos/200" class="card-img-top" alt="Milk">
+        <div class="card-body">
+          <h5 class="card-title">Piens</h5>
+          <p class="card-text">apraksts utt.</p>
+          <p>€1.00</p>
+        </div>
+      </div>
+
+      <div class="card col" style="width: 18rem;">
+        <img src="https:/picsum.photos/200" class="card-img-top" alt="Milk">
+        <div class="card-body">
+          <h5 class="card-title">Piens</h5>
+          <p class="card-text">apraksts utt.</p>
+          <p>€1.00</p>
+        </div>
+      </div>
+
+      <div class="card col" style="width: 18rem;">
+        <img src="https:/picsum.photos/200" class="card-img-top" alt="Milk">
+        <div class="card-body">
+          <h5 class="card-title">Piens</h5>
+          <p class="card-text">apraksts utt.</p>
+          <p>€1.00</p>
+        </div>
+      </div>
+    </div>
+    
+
+    
+    <!-- End of Product Section -->
+
+    <!-- Carousel -->
+
+    <h1>Karuselis</h1>
+    
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https:/picsum.photos/400/200" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https:/picsum.photos/400/200" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https:/picsum.photos/400/200" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    
+
+    <!-- End of Carousel -->
 
   </body>
 </html>
